@@ -1,0 +1,67 @@
+# ---- KiCad v9 ----
+*.bak
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.tmp
+*.save
+*.autosave
+*.dcm
+*.net
+*.xml
+
+
+# KiCad project backup folders
+.autosave-backup/
+
+# KiCad build/generated files
+*-cache.lib
+*-rescue.*
+fp-info-cache
+sym-lib-table-bak
+fp-lib-table-bak
+
+# Eeschema backup and cache
+*.sch-bak
+*-backups/
+*-backup/
+
+# Gerber and fabrication outputs
+*.gbr
+*.gbo
+*.gbp
+*.gbs
+*.gbl
+*.gtl
+*.gts
+*.gtp
+*.gto
+*.drl
+*.zip
+*.fab
+*.pos
+*.csv
+*.svg
+
+
+# ---- LTspice ----
+*.log
+*.plt
+*.raw
+*.net
+*.bkp
+*.tmp
+*.save
+*.backup
+*.err
+
+# Sim autosave folders (optional)
+*_autosave/
+
+# ---- System & Editor Files ----
+.DS_Store
+Thumbs.db
+~$*
+*.swp
+*.swo
+*.bak~
+*.orig
